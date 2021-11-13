@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/.tmp
 /dist
 /tmp
 /out-tsc
@@ -10,6 +9,7 @@
 
 # dependencies
 /node_modules
+package-lock.json
 
 # profiling files
 chrome-profiler-events*.json
@@ -45,3 +45,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Local Private Packages
+/.tmp

@@ -18,9 +18,14 @@
     "@angular/platform-browser": "~13.0.0",
     "@angular/platform-browser-dynamic": "~13.0.0",
     "@angular/router": "~13.0.0",
-    "@criptografia/modul-rsa": "./.tmp/criptografia-modul-rsa-0.1.0.tgz",
+    "@criptografia/modul-rsa": "file:./.tmp/criptografia-modul-rsa-0.1.0.tgz",
+    "bigint-conversion": "^2.2.1",
+    "bigint-crypto-utils": "^3.0.20",
+    "bigint-mod-arith": "^3.0.1",
+    "bootstrap": "^5.1.3",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
+    "webpack": "^5.64.0",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {

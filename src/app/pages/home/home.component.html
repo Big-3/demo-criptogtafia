@@ -1,0 +1,19 @@
+<div class="page-header">
+	<div class=container>
+		<h1> Demo-Criptografia </h1>
+		<p> Una pàgina web demostrativa del mòdul d'encriptació RSA generat per Joel Compte Prades i Albert Sáez Núñez. </p>
+	</div>
+</div>
+<div class="rule"></div>
+<div class='container'>
+	<div class="form">
+		<h4> Generar Claus </h4>
+		<form [formGroup]="generarForm">
+			<br>
+			<label> Private Key (d): </label><input formControlName="privKey" class="form-control" placeholder="Generate Key" /><br>
+			<label> Public Key (e): </label><input formControlName="pubKey" class="form-control"placeholder="Generate Key" /><br>
+			<label> Modulus (n): </label><input formControlName="modulus" class="form-control" placeholder="Generate Key" /><br>
+			<button type="button" class='btn btn-primary ladda-button' (click)='generarClaus()'>Generate Keys</button>
+		</form>
+	</div>
+</div>
